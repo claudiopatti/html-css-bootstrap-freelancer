@@ -32,13 +32,6 @@ main
     margin-top: 25px;
 }
 
-.barra_bianca_small  {
-    width: 10px;
-    max-height: 3px;
-    background-color: white;
-    border-radius: 20px;
-    margin: 10px 3px 0;
-}
 
 .color_barra {
     background-color: #2c3e50;
@@ -57,7 +50,18 @@ footer
     background-color: #2c3e50;
 }
 
-.background_top_footer div:last-child a {
+.color_avatar a {
     color: #1abc9c;
     text-decoration: none;
+}
+
+.font_icon {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
 }
